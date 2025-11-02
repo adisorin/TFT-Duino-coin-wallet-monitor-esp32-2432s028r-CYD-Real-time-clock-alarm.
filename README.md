@@ -13,6 +13,8 @@
 ![IMG-20251102-WA0003](https://github.com/user-attachments/assets/58bcd866-7bd9-43a7-a2b2-43ca4c99a29e)
 ![IMG-20251102-WA0002](https://github.com/user-attachments/assets/d6532554-02fe-4ee9-8472-9812c9de6dd7)
 ![IMG-20251102-WA0001](https://github.com/user-attachments/assets/87715ab9-95dc-4d19-9381-73cfa0649711)
+![Imagine WhatsApp 2025-11-02 la 14 26 32_5203d9f4](https://github.com/user-attachments/assets/e0e56306-9e69-4377-8f2d-fa09583dd386)
+
 Prezentare:
 ---
 
