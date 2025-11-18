@@ -301,6 +301,75 @@ void afiseazaInfoAlarma() {
     tft.print("ON");
   }
 }
+////////////////////////////  indicator wifi  ////////////////////
+
+// ==== Afișează indicator WiFi discret ====
+void afiseazaNivelWiFi(int x, int y) {
+  // Poziția de start (x, y) este colțul stânga-jos al indicatorului
+  int rssi = WiFi.RSSI();
+  int nivel = 0;
+
+  if (WiFi.status() != WL_CONNECTED) {
+    nivel = 0;
+  } else if (rssi > -50) nivel = 5;
+  else if (rssi > -60) nivel = 4;
+  else if (rssi > -70) nivel = 3;
+  else if (rssi > -80) nivel = 2;
+  else if (rssi > -90) nivel = 1;
+  else nivel = 0;
+
+  // dimensiuni bare
+  int latime = 6;
+  int spatiu = 3;
+  int inaltimeMax = 20;
+
+  // șterge zona precedentă
+  tft.fillRect(x, y - inaltimeMax, 5 * (latime + spatiu), inaltimeMax + 2, ILI9341_BLACK);
+
+  // desenează barele
+  for (int i = 0; i < 5; i++) {
+    int h = (i + 1) * (inaltimeMax / 5);
+    uint16_t culoare = (i < nivel) ? ILI9341_GREEN : ILI9341_DARKGREY;
+    tft.fillRect(x + i * (latime + spatiu), y - h, latime, h, culoare);
+  }
+}
+////////////////////////////End indicator wifi/////////////////////////////////////////  indicator wifi  ////////////////////
+
+// ==== Afișează indicator WiFi discret ====
+void afiseazaNivelWiFi(int x, int y) {
+  // Poziția de start (x, y) este colțul stânga-jos al indicatorului
+  int rssi = WiFi.RSSI();
+  int nivel = 0;
+
+  if (WiFi.status() != WL_CONNECTED) {
+    nivel = 0;
+  } else if (rssi > -50) nivel = 5;
+  else if (rssi > -60) nivel = 4;
+  else if (rssi > -70) nivel = 3;
+  else if (rssi > -80) nivel = 2;
+  else if (rssi > -90) nivel = 1;
+  else nivel = 0;
+
+  // dimensiuni bare
+  int latime = 6;
+  int spatiu = 3;
+  int inaltimeMax = 20;
+
+  // șterge zona precedentă
+  tft.fillRect(x, y - inaltimeMax, 5 * (latime + spatiu), inaltimeMax + 2, ILI9341_BLACK);
+
+  // desenează barele
+  for (int i = 0; i < 5; i++) {
+    int h = (i + 1) * (inaltimeMax / 5);
+    uint16_t culoare = (i < nivel) ? ILI9341_GREEN : ILI9341_DARKGREY;
+    tft.fillRect(x + i * (latime + spatiu), y - h, latime, h, culoare);
+  }
+}
+
+
+////////////////////////////End indicator wifi/////////////
+
+
 ////////Generare tonuri DAC inloc de PWM
 void beepDAC(int freq, int duration) {
   int delayMicro = 1000000 / (freq * 2);
