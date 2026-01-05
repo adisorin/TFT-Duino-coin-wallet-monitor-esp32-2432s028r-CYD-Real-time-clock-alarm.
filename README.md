@@ -118,6 +118,6 @@ controlează volumul;
 se conectează la WiFi printr-o interfață grafică complet tactilă;
 se conectează la API-ul Duino-Coin pentru a afișa informații despre sold și mineri;
 memorează setările în EEPROM.
-
+Mulțumesc și celor de la Duino-Coin pentru faptul că au pornit https://duinocoin.com/
 ---
 Autor: Sorinescu Adrian.
