@@ -44,7 +44,7 @@ Codul folosește API-urile Duino-Coin:
 /users/{user} – pentru informații despre mineri.
 
 ## De reținut
-Pentru monitorizare personală: O interogare la fiecare 30 - 60 de secunde este considerată ideală. Aceasta oferă date actualizate fără a solicita inutil serverele proiectului.
+Pentru monitorizare personală: O interogare la fiecare 30 - 60 (” if (currentMillis - lastApiCheck > 30000)” ) de secunde este considerată ideală. Aceasta oferă date actualizate fără a solicita inutil serverele proiectului.
 Frecvența maximă sigură: Evitați să faceți mai mult de o solicitare la 5-10 secunde. Solicitările mai dese pot fi interpretate ca un atac de tip spam sau bot. 
 
 🌞 3. Controlul luminozității și LDR
