@@ -42,6 +42,8 @@ WiFiMulti permite conectarea la mai multe rețele dacă sunt memorate.
 Codul folosește API-urile Duino-Coin:
 /balances/{user} – pentru sold;
 /users/{user} – pentru informații despre mineri.
+De reținut: Pentru monitorizare personală: O interogare la fiecare 30 - 60 de secunde este considerată ideală. Aceasta oferă date actualizate fără a solicita inutil serverele proiectului.
+Frecvența maximă sigură: Evitați să faceți mai mult de o solicitare la 5-10 secunde. Solicitările mai dese pot fi interpretate ca un atac de tip spam sau bot. 
 
 🌞 3. Controlul luminozității și LDR
 LDR-ul pe pinul 34 măsoară lumina ambientală.
