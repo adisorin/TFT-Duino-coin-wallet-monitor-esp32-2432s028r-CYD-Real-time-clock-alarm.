@@ -1325,7 +1325,7 @@ void loop() {
       actualizeazaTimpLocal();
       lastSyncAttempt = currentMillis;
     }
-    if (currentMillis - lastApiCheck > 30000) {
+    if (currentMillis - lastApiCheck > 60000) {
       HTTPClient http;
       http.begin(apiUrl);
       int httpCode = http.GET();
