@@ -1,4 +1,6 @@
 # ESP32-2432S028R-duino-tft-dimming-Clock-alarm-TICKER
+![WhatsApp Image 2026-02-21 at 23 28 53 (1)](https://github.com/user-attachments/assets/4d22968e-339b-4bbc-b1c2-7ad389873eda)
+![WhatsApp Image 2026-02-21 at 23 28 53](https://github.com/user-attachments/assets/9caaf293-7912-4e44-ac60-8220a28916b3)
 
 
 # TFT-Duino-coin-wallet-monitor-esp32-2432s028r-CYD-Real-time-clock-alarm
