@@ -1,8 +1,8 @@
 # ESP32-2432S028R-duino-tft-dimming-Clock-alarm-TICKER
 ![WhatsApp Image 2026-02-21 at 23 28 53 (1)](https://github.com/user-attachments/assets/4d22968e-339b-4bbc-b1c2-7ad389873eda)
 ![WhatsApp Image 2026-02-21 at 23 28 53](https://github.com/user-attachments/assets/9caaf293-7912-4e44-ac60-8220a28916b3)
-![WhatsApp Image 2026-03-06 at 18 38 05 (1)](https://github.com/user-attachments/assets/e3c75d46-81dc-4739-b924-1c37c14b3e40)
 ![WhatsApp Image 2026-03-06 at 18 38 05 (2)](https://github.com/user-attachments/assets/f2e30949-3026-4498-959e-4c38ad675785)
+![WhatsApp Image 2026-03-06 at 18 38 05 (1)](https://github.com/user-attachments/assets/e3c75d46-81dc-4739-b924-1c37c14b3e40)
 ![WhatsApp Image 2026-03-06 at 18 38 05](https://github.com/user-attachments/assets/5048aa7c-1cb0-460c-920f-14522d7991bd)
 
 
